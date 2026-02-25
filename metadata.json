@@ -1,0 +1,21 @@
+{
+  "title": "Python: Testing Membership with the in Operator",
+  "slug": "python-in-operator-membership",
+  "description": "Using the in operator to test membership in strings and lists in Python.",
+  "authors": [
+    "chris-cooling"
+  ],
+  "tags": [
+    "python"
+  ],
+  "duration": 4,
+  "prerequisites": [
+    "python-strings-introduction",
+    "python-lists-introduction",
+    "python-booleans"
+  ],
+  "related": [
+    "python-comparison-operators",
+    "python-boolean-operators"
+  ]
+}

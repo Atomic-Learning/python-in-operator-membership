@@ -1,0 +1,29 @@
+<p>The <code class="language-python">in</code> operator checks whether a value is contained within a collection (such as a string or list) and returns <code class="language-python">True</code> or <code class="language-python">False</code>. We'll use strings and lists for examples here.</p>
+
+<h2>Checking for Items in Lists</h2>
+
+<p>With lists, <code class="language-python">in</code> checks whether a value exists as an item in the list:</p>
+
+<py-cell>a = 1
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+
+print(a in list1)
+print(3 in list1)
+print(4 in list2)
+print(1 in list2)</py-cell>
+
+<h2>Checking for Substrings in Strings</h2>
+
+<p>With strings, <code class="language-python">in</code> checks whether one string is a substring of another:</p>
+
+<py-cell>print("fun" in "fundamentals")
+print("fun" in "skipping ahead")</py-cell>
+
+<h2>The not in Operator</h2>
+
+<p>You can use <code class="language-python">not in</code> to check if a value is <em>not</em> contained in a collection:</p>
+
+<py-cell>list1 = [1, 2, 3]
+print(4 not in list1)
+print("xyz" not in "hello")</py-cell>
