@@ -16,6 +16,7 @@
   ],
   "related": [
     "python-comparison-operators",
-    "python-boolean-operators"
+    "python-boolean-operators",
+    "example-python-printing-vowels-from-string"
   ]
 }

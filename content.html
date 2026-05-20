@@ -2,14 +2,14 @@
 
 <h2>Checking for Items in Lists</h2>
 
-<p>With lists, <code class="language-python">in</code> checks whether a value exists as an item in the list:</p>
+<p>With lists, <code class="language-python">in</code> checks whether an item list on the right of the operator has the same value as the value on the left of the operator:</p>
 
 <py-cell>a = 1
 list1 = [1, 2, 3]
 list2 = [4, 5, 6]
 
 print(a in list1)
-print(3 in list1)
+print(2 + 1 in list1)
 print(4 in list2)
 print(1 in list2)</py-cell>
 
@@ -25,5 +25,5 @@ print("fun" in "skipping ahead")</py-cell>
 <p>You can use <code class="language-python">not in</code> to check if a value is <em>not</em> contained in a collection:</p>
 
 <py-cell>list1 = [1, 2, 3]
-print(4 not in list1)
+print(2 not in list1)
 print("xyz" not in "hello")</py-cell>
